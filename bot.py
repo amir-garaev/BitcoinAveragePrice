@@ -22,7 +22,7 @@ dp = Dispatcher()
 bot = Bot(token=API_TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
 
 # average_price - Средняя цена
-# price_on_date - цену Bitcoin по дате
+# price_on_date - цена Bitcoin по дате
 
 @dp.message(CommandStart())
 async def command_start_handler(message: Message) -> None:
